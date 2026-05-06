@@ -1,6 +1,6 @@
 # CLAUDE.md Schema Guide
 
-`CLAUDE.md` (also read as `AGENTS.md` by some tools) is the **schema document** for a wiki topic. It tells the LLM agent the scope, conventions, current state, and open questions — every session should start by reading it together with `wiki/index.md`.
+`CLAUDE.md` is the **schema document** for a wiki topic (filename comes from the Karpathy pattern; it is not tied to a single vendor). Cursor agents, Claude Code, Codex, and other tools should treat it the same way: it defines scope, conventions, current state, and open questions. **Every wiki session should start** by reading it together with `wiki/index.md`. Some teams mirror a short pointer in `AGENTS.md`; the canonical file for this workflow remains `CLAUDE.md` unless you change scaffold and tooling accordingly.
 
 ## Why it matters
 
