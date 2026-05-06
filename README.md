@@ -21,6 +21,10 @@ The skill comes with two companion tools in this repo:
 
 Both tools share a single TypeScript library (`audit-shared/`) so audit files written from Obsidian and the web viewer are byte-identical in shape.
 
+## Sample digest (DeepSeek)
+
+This repository includes a **categorized markdown digest** of a long DeepSeek technical chat (robotics, automotive, drones, RC), with a topic inventory and **8** articles under [`my-wiki/raw/articles/`](my-wiki/raw/articles/) (`topic-inventory.md` plus `mobility/`, `drones/`, `rc/`, `language/`). Source: user-supplied PDF export and [this share link](https://chat.deepseek.com/share/krcvr538zt632sy0c4) (reference only).
+
 ## Install
 
 ### Cursor
@@ -93,12 +97,13 @@ cd web && npm install && npm run build && cd ..
 # start the server against a wiki
 cd web
 npm start -- --wiki "/path/to/your/wiki-root" --port 4175
-## workaround:
-npx tsx server/index.ts --wiki "D:\ProgramData\llm-wiki-skill\my-wiki" --port 4175
+
 ## troubleshooting
 ## --wiki and --port never reached Node. Only two bare arguments were passed. The server only treats the path as the wiki root when it appears after --wiki (or -w), so wikiRoot stays empty and you get that error.
 
 ## This is the same Windows + PowerShell + npm start -- … argument-forwarding issue: flags after -- are often dropped or mangled.
+## workaround:
+npx tsx server/index.ts --wiki "D:\ProgramData\llm-wiki-skill\my-wiki" --port 4175
 ## or
 npm start -- --wiki="D:\ProgramData\llm-wiki-skill\my-wiki" --port=4175
 # open http://127.0.0.1:4175
