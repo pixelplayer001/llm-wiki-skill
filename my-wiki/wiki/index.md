@@ -13,9 +13,13 @@
 ### DeepSeek digest (中文摘要)
 - [[DeepSeek Into the Unknown Digest]] — hub for PDF chat digest (`raw/articles/topic-inventory.md` + category folders).
 
+### PathLLM / Forty-Two
+- [[PathLLM Client Portal and Hybrid Video Chain]] — `ClientPortalSynthesis` vs `HybridVideoCreatorSynthesizer`; docs vs NEO operator skill.
+
 ## Entities
 
 - [[Andrej Karpathy]] — gist lineage for the pattern.
+- [[Forty-Two]] — PathLLM.ai LetsMod monorepo (client portal JSON, synthesis chains, NEO skills).
 - [[Obsidian]] — Markdown vault + audit plugin.
 
 ## Summaries (chronological)
@@ -31,6 +35,7 @@
 - 2026-05-07 — [[fpv-video-payload-thrust-weight]] — FPV/图传切换与负载推重比。
 - 2026-05-07 — [[rc-car-control-vs-drone-flight-controller]] — RC 车 vs 无人机控制哲学。
 - 2026-05-07 — [[english-technical-phrasing-convention]] — 英文技术措辞一则。
+- 2026-05-09 — [[usage-guide-clientportal-hybrid-chain]] — PathLLM Client Portal vs hybrid chain; usage docs inventory (Forty-Two).
 
 ## Open Questions
 
